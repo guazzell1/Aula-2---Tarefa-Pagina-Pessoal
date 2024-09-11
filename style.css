@@ -1,0 +1,83 @@
+nav {
+    background-color: #000000;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.li-menu {
+    display: inline;
+    margin-right: 20px;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 15px;
+}
+
+.link-menu:hover {
+    color: #2453cc;
+}
+
+.botaolink {
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.botaolink:hover {
+    background-color: #2453cc;
+}
+
+.foto {
+    border: 3px solid black;
+    border-radius: 25%;
+}
+
+.fotohobbies {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.fotocontato {
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 100%;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.divcontato {
+    display: flex;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pcontato {
+    padding-left: 10px;
+}
+
+.link-fade {
+    color: #8e44ad;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
